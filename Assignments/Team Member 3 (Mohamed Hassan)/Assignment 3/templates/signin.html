@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+form {
+  background-color: #eef2f3;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+label{
+  font-size: 25px;
+  padding: 10px;
+}
+#signin {
+  padding: 10px 18px;
+ 
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+a{
+  margin: 20px;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+#form-box{
+  padding:  50px 200px;
+}
+.btns{
+  text-align: center;
+}
+
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark " >
+    <a class="navbar-brand" href="#">INVENTORY</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/signin">Sign In/Up</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+<h2>Sign-in Form</h2>
+<div class="container" id="form-box">
+<form action="/action_page.php" method="post">
+  
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+     <div class="btns">  
+    <button  class="btn btn-primary"  id="signin" type="submit">Signin</button>
+    <p>Don't have an account?</p>
+    <a href="/signup" id="signup" role="button">Signup</a>
+    
+  </div>
+  </div>
+    
+</form>
+</div>
+</body>
+</html>
