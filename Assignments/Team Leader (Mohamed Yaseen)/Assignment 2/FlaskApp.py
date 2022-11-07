@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 import ibm_db
-conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=30119;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xvn67110;PWD=sy2Yq8t6Un8xx952",'','')
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=824dfd4d-99de-440d-9991-629c01b3832d.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;PORT=30119;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=xvn67110;PWD=fNSpdoYIUVJsfND3",'','')
 print(conn)
 print("connection successful...")
 
@@ -25,9 +25,9 @@ def signup():
 def signin():
     return render_template("signin.html")
 
-@app.route("/aboutpage")
+@app.route("/home")
 def aboutpage():
-    return render_template("aboutpage.html")
+    return render_template("index.html")
  
 
 if __name__ == "__main__":
