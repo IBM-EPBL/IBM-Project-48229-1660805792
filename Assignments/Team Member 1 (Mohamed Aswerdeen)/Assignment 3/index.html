@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+          background-color: rgba(106, 106, 114, 0.944);
+        }
+
+        img{
+            width: 300px;
+            height:300px;
+          
+        }
+
+        .grid-container {
+               display: grid;
+               grid-template-columns:  auto auto auto;
+               padding: 10px;
+               column-gap: 10px;
+               margin-top: 10px;
+               row-gap: 10px;
+               text-align:center ;
+               background-color: rgba(78, 78, 89, 0.678)
+            }
+
+          .items {
+            background-color: rgba(255, 255, 255, 0.8);
+             border: 5px solid rgba(0, 0, 0, 0.8);
+             padding: 10px;
+             }
+
+             h1{
+                text-align: center;
+                font-size: 60px;
+                font-weight: bolder ;
+             }
+    </style>
+
+</head>
+<body>
+    <h1>The images are from IBM object storage</h1>
+ <div class="grid-container">
+    <div class="items"><img src="https://ibm-hospital.s3.jp-tok.cloud-object-storage.appdomain.cloud/hospital.png"></img></div>
+    <div class="items"><img src="https://ibm-hospital.s3.jp-tok.cloud-object-storage.appdomain.cloud/download.jpg"></img></div>
+    <div class="items"><img src="https://ibm-hospital.s3.jp-tok.cloud-object-storage.appdomain.cloud/download.png"></img></div>
+    <div class="items"><img src="https://ibm-hospital.s3.jp-tok.cloud-object-storage.appdomain.cloud/images.jpg"></img></div>
+    <div class="items"><img src="https://ibm-hospital.s3.jp-tok.cloud-object-storage.appdomain.cloud/images.png"></img></div>
+   
+</div>
+
+
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "2d70d271-54c8-4d0d-8dac-cea480522fce", // The ID of this integration.
+          region: "jp-tok", // The region your integration is hosted in.
+          serviceInstanceID: "9a500ac7-1766-402a-b00d-22ffeef87956", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+
+
+</body>
+</html>
