@@ -1,6 +1,0 @@
-Assignment 3
-
-1. Create flask app
-2. Add home page and about page
-3. Add bootstrap(option)
-4. Add signin page and app the signup page
