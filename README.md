@@ -1,7 +1,3 @@
-# IBM-Project-48229-1660805792
-Inventory Managment System for Retailers
-
-
 ##
 Video: <a href="https://youtu.be/_hLiYkcaeko"> Demo Link</a><br>
 Deployment on IBM Kubernetes: <a href="http://159.122.183.25:32672/">Deployment Link</a>
