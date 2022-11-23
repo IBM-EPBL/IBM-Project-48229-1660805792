@@ -1,6 +1,6 @@
 ##
-Deployment on IBM Kubernetes on Public IP: <a href="http://159.122.183.25:32672/">Public IP of Deployment Link</a>
-Project Demonstration Video: <a href="https://youtu.be/_hLiYkcaeko"> Demo Link</a><br>
+Deployment on IBM Kubernetes on Public IP: <a href="http://159.122.183.25:32672/">Public IP of Deployment Link</a><br>
+Project Demonstration Video: <a href="https://youtu.be/_hLiYkcaeko"> Demo Link</a>
 
 
 <div align="center">
