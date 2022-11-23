@@ -9,6 +9,6 @@ Project Demonstration Video: <a href="https://youtu.be/_hLiYkcaeko"> Demo Link</
    <h1>Inventory Management System for Retailers</h1>
    <h3>IBM-Project-48229-1660805792</h3>
    <h3>Team ID: PNT2022TMID24001</h3>
-   <h2>By:</h2>
+   <h3>By:</h3>
    <h3>Mohamed Yaseen <br> Mohamed Aswerdeen M <br> Abdur Rahman M Y <br> Mohamed Hassan S </h3>
 </div>
