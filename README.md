@@ -9,11 +9,12 @@
 
 <div align="center">
 <br/>
- <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.sv" alt="Logo" width="400" height="128">
-# **Inventory Management System for Retailers**  
-# IBM-Project-48229-1660805792  
-</div> 
+ <img src="https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-IBM-Logo-PNG-Transparent.png" alt="Logo" width="400" height="128">
  
+# IBM-Project-52068-1660988777
+# **Inventory Management System for Retailers**      
+  </div> 
+
 
 Domain:  **Cloud Application Development**        
 Team ID : **PNT2022TMID41001**
