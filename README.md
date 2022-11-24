@@ -11,13 +11,13 @@
 <br/>
  <img src="https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-IBM-Logo-PNG-Transparent.png" alt="Logo" width="400" height="128">
  
-# IBM-Project-52068-1660988777
-# **Inventory Management System for Retailers**      
+# Inventory Management System for Retailers
+# **IBM-Project-48229-1660805792-**      
   </div> 
 
 
 Domain:  **Cloud Application Development**        
-Team ID : **PNT2022TMID41001**
+Team ID : **PNT2022TMID24001**
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
