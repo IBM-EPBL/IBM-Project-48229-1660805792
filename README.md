@@ -7,17 +7,16 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-
 <div align="center">
- <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"  align="center" alt="drawing" width="200" /> <br/>
- # **Inventory Management System for Retailers**
- # IBM-Project-48229-1660805792
+<br/>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.sv" alt="Logo" width="400" height="128">
+# **Inventory Management System for Retailers**  
+# IBM-Project-48229-1660805792  
 </div> 
+ 
 
-
-**Domain:**  Cloud Application Development
-**Team ID:** PNT2022TMID41025
-
+Domain:  **Cloud Application Development**        
+Team ID : **PNT2022TMID41025**
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ##<div align="center"> :people_holding_hands: Team Members: :people_holding_hands:
